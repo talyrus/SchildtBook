@@ -1,7 +1,7 @@
 /**
  * Created by Taly on 21.12.2016.
  */
-class Vehicle {
+class Vehicle5 {
     int passengers; // количество пассажиров
     int fuelcap;    // емкость топливного бака
     int mpg;        // потребление топлива в милях на галлон
@@ -11,7 +11,7 @@ class Vehicle {
     //В этом классе объявляется объект типа Vehicle
     class VehicleDemo {
     public static void main(String[] args) {
-        Vehicle minivan = new Vehicle();
+        Vehicle5 minivan = new Vehicle5();
         int range;
 
         //Присвоить значения полям в объекте minivan

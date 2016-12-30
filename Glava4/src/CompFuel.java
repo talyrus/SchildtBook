@@ -4,7 +4,7 @@
  * необходимого транспортному средству для преодоления заданного расстояния
  */
 
-class Vehicle {
+class Vehicle1 {
     int passengers; // количество пассажиров
     int fuelcap;    // емкость топливного бака
     int mpg;        // потребление топлива в милях на галлон
@@ -22,8 +22,8 @@ class Vehicle {
 
 public class CompFuel {
     public static void main(String[] args) {
-        Vehicle minivan = new Vehicle();
-        Vehicle sportscar = new Vehicle();
+        Vehicle1 minivan = new Vehicle1();
+        Vehicle1 sportscar = new Vehicle1();
         double gallons;
         int dist = 252; //задаем расстояние, для которого проводим расчет
 

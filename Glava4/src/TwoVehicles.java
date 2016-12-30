@@ -3,7 +3,7 @@
  * В этой программе создаются два объекта класса Vehicle
  */
 
-class Vehicle{
+class Vehicle2{
     int passengers; // количество пассажиров
     int fuelcap;    // емкость топливного бака
     int mpg;        // потребление топлива в милях на галлон
@@ -12,8 +12,8 @@ class Vehicle{
 //В этом классе объявляется объект типа Vehicle
 class TwoVehicles {
     public static void main(String[] args) {
-        Vehicle minivan = new Vehicle();
-        Vehicle sportscar = new Vehicle(); // переменные minivan и sportscar ссылаются на разные объекты
+        Vehicle2 minivan = new Vehicle2();
+        Vehicle2 sportscar = new Vehicle2(); // переменные minivan и sportscar ссылаются на разные объекты
 
         int range1, range2;
 

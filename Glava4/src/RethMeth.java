@@ -3,7 +3,7 @@
  *  Использование возвращаемого значения
  */
 
-class Vehicle {
+class Vehicle4 {
     int passengers; // количество пассажиров
     int fuelcap;    // емкость топливного бака
     int mpg;        // потребление топлива в милях на галлон
@@ -17,8 +17,8 @@ class RethMeth {
 
     public static void main(String[] args) {
 
-        Vehicle minivan = new Vehicle();
-        Vehicle sportscar = new Vehicle(); // переменные minivan и sportscar ссылаются на разные объекты
+        Vehicle4 minivan = new Vehicle4();
+        Vehicle4 sportscar = new Vehicle4(); // переменные minivan и sportscar ссылаются на разные объекты
 
         int range1, range2;
 

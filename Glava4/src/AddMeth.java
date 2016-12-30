@@ -3,7 +3,7 @@
  * добавление метода range() в класс Vehicle
  */
 
-class Vehicle {
+class Vehicle3 {
     int passengers; // количество пассажиров
     int fuelcap;    // емкость топливного бака
     int mpg;        // потребление топлива в милях на галлон
@@ -16,8 +16,8 @@ class Vehicle {
 class AddMeth {
     public static void main(String[] args) {
 
-        Vehicle minivan = new Vehicle();
-        Vehicle sportscar = new Vehicle(); // переменные minivan и sportscar ссылаются на разные объекты
+        Vehicle3 minivan = new Vehicle3();
+        Vehicle3 sportscar = new Vehicle3(); // переменные minivan и sportscar ссылаются на разные объекты
 
         int range1, range2;
 
