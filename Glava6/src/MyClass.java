@@ -2,6 +2,7 @@
  * Created by Taly on 04.01.2017.
  * Сравнение видов доступа public и private
  */
+
 class MyClass {
     private int alpha; // закрытый доступ
     public int beta; // открытый доступ
@@ -40,7 +41,5 @@ class AccessDemo{
 
         ob.beta = 88;
         ob.gamma = 99;
-
-
     }
 }
