@@ -2,7 +2,7 @@
  * Created by Taly on 29.12.2016.
  * Отображение битов, составляющих байт
  */
-class ShowBits {
+class ShowBit {
     public static void main(String[] args) {
         int t;
         byte val;
